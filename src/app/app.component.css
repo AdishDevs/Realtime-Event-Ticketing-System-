@@ -1,0 +1,42 @@
+.main-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .main-header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .features {
+    margin-top: 30px;
+  }
+  
+  .features h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    font-size: 1rem;
+    color: #495057;
+    margin: 10px 0;
+  }
+  

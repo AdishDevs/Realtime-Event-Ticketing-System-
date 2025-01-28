@@ -1,0 +1,32 @@
+.ticket-display {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    max-height: 300px;
+    background-color: rgb(220, 220, 220);
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #28a745;
+    width: 0;
+    transition: width 0.5s;
+  }
+
+h2{
+  font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+}
+  

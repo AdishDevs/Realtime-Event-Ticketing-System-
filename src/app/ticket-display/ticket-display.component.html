@@ -1,0 +1,8 @@
+<div class="ticket-display">
+    <h2>Ticket Status</h2>
+    <div class="progress-bar">
+      <div class="progress" [style.width.%]="(availableTickets / totalTickets) * 100"></div>
+    </div>
+    <p>{{ availableTickets }} / {{ totalTickets }}</p>
+  </div>
+  

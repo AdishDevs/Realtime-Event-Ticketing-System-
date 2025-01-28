@@ -1,0 +1,18 @@
+<div class="configuration-form">
+    <h2>System Configuration</h2>
+    <form (ngSubmit)="onSaveConfiguration()">
+      <label for="totalTickets">Total System Tickets:</label>
+      <input id="totalTickets" type="number" [(ngModel)]="config.totalTickets" name="totalTickets" required />
+  
+      <label for="ticketReleaseRate">Ticket Release Rate:</label>
+      <input id="ticketReleaseRate" type="number" [(ngModel)]="config.ticketReleaseRate" name="ticketReleaseRate" required />
+  
+      <label for="customerRetrieveRate">Customer Retrieve Rate:</label>
+      <input id="customerRetrieveRate" type="number" [(ngModel)]="config.customerRetrievalRate" name="customerRetrieveRate" required />
+  
+      <label for="maxCapacity">Max Capacity:</label>
+      <input id="maxCapacity" type="number" [(ngModel)]="config.maxTicketCapacity" name="maxCapacity" required />
+  
+      <button type="submit">Save Configuration</button>
+    </form>
+  </div>
